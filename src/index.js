@@ -14,7 +14,16 @@
     maxDivide: 4
   });
 
-  boxApp.init();
+  boxApp.init({
+    left: 0,
+    top: 0,
+    width: 50,
+    height: 50,
+    color: "black",
+    directionX: DIRECTION.RIGHT,
+    directionY: DIRECTION.BOTTOM,
+    speed: 10,
+  });
 
   btnStart.addEventListener("click", function () {
     boxApp.move();

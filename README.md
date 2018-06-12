@@ -27,3 +27,25 @@ javascript ECMA5
 └── └── util.js               - 유틸 관련 스크립트
 ```
 
+
+## boxAppGenerator params
+
+| name       | type      | required | default    |              description                      |
+|------------|-----------|----------|------------|-----------------------------------------------|
+| Box        | function  | ✔        | {}         | Box class                                     | 
+| frame      | object    | ✔        | {}         | frame instance                                |
+| maxDivide  | number    |          | 4          | maxium box divide count                       |
+
+
+## boxApp init method params
+
+| name       | type      | required | default    |              description                      |
+|------------|-----------|----------|------------|-----------------------------------------------|
+| left       | number    |          | 0          | Box init position left value                  | 
+| top        | number    |          | 0          | Box init position top value                   | 
+| width      | number    |          | 50         | Box width value                               |
+| height     | number    |          | 50         | Box height value                              |
+| color      | string    |          | "red"      | Box background color value                    |
+| directionX | string    |          | "right"    | 초기 박스가 움직일 X 축 방향                        |
+| directionY | string    |          | "bottom"   | 초기 박스가 움직일 Y 축 방향                        |
+| speed      | number    |          | 10         | box speed value 작을수록 빠르다.                  |

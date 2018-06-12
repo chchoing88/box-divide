@@ -8,7 +8,7 @@
     var _frame = opts.frame || {};
     var _isStop = true;
     var _divideCount = 0;
-    var _MAX_DIVIDE = opts.maxDivide;
+    var _MAX_DIVIDE = opts.maxDivide || 4;
 
     var boxApp = {
       _initProps: {},
