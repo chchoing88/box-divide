@@ -8,7 +8,11 @@
   var btnDivide = _.$("#btn_divide");
 
   var frame = Frame(frameElem);
-  var boxApp = boxAppGenerator(Box, frame);
+  var boxApp = boxAppGenerator({
+    Box: Box,
+    frame: frame,
+    maxDivide: 4
+  });
 
   boxApp.init();
 
