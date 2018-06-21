@@ -19,7 +19,7 @@
     top: 0,
     width: 50,
     height: 50,
-    color: "black",
+    color: "",
     directionX: DIRECTION.RIGHT,
     directionY: DIRECTION.BOTTOM,
     speed: 10,
